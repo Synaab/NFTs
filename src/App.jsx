@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header className="container mt-5 mx-auto pl-4 min-h-[52.5rem]  bg-[url('./assets/svg/header__img.svg')] bg-no-repeat bg-cover bg-center">
+      <header className="container overflow-hidden mt-5 mx-auto pl-4 min-h-[52.5rem]  bg-[url('./assets/svg/header__img.svg')] bg-no-repeat bg-cover bg-center">
         <div className="xl:xlcontainer text-white mx-auto px-4 p-1 ">
           <section className=" flex justify-between items-center gap-10 mt-8">
             <div className=" gap-2 flex">
@@ -313,7 +313,7 @@ function App() {
               </button>
             </div> */}
             <div className="col-span-2 mt-12  grid grid-cols-1 justify-between items-end gap-6 lg:grid-cols-2 xl:grid-cols-3 ">
-              <div className="h-[35.125rem] w-96 mx-auto border p-6 border-[#FFFFFF47] hover:border-white hover:-translate-y-16 transition duration-500 hover:border-[2px] delay-75 parent overflow-hidden lg:w-full lg:mx-0 mt-12">
+              <div className="h-[35.125rem] w-96 mx-auto border p-6 hover:h-auto border-[#FFFFFF47] hover:border-white hover:-translate-y-16 transition duration-500 hover:border-[2px] delay-75 parent overflow-hidden lg:w-full lg:mx-0 mt-12">
                 <div className="flex justify-between items-center  ">
                   <h4 className="font-DMSans font-bold text-white text-lg">
                     VERUALY ART
@@ -325,7 +325,7 @@ function App() {
                     <img
                       src="src\assets\svg\Trening1.svg"
                       alt="Trening1"
-                      className="h-96 w-[24rem] child_img duration-300 delay-[50]"
+                      className="h-96 child_img duration-300 delay-[50]"
                     />
                   </div>
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
@@ -377,7 +377,7 @@ function App() {
                   </div>
                 </a>
               </div>
-              <div className="h-[35.125rem] w-96 mx-auto border p-6 border-[#FFFFFF47] hover:border-white hover:-translate-y-16 duration-1000 hover:border-[2px] delay-75 parent overflow-hidden lg:w-full lg:mx-0 mt-12">
+              <div className="h-[35.125rem] w-96 mx-auto border p-6 hover:h-auto border-[#FFFFFF47] hover:border-white hover:-translate-y-16 duration-1000 hover:border-[2px] delay-75 parent overflow-hidden lg:w-full lg:mx-0 mt-12">
                 <div className="flex justify-between items-center">
                   <h4 className="font-DMSans font-bold text-white text-lg">
                     CAT ICON ART
@@ -441,7 +441,7 @@ function App() {
                   </div>
                 </a>
               </div>
-              <div className="h-[35.125rem] w-96 mx-auto  border p-6 border-[#FFFFFF47] hover:border-white hover:-translate-y-16 transition duration-500 hover:border-[2px] delay-75 parent overflow-hidden  lg:col-span-2 xl:col-span-1 lg:w-full lg:mx-0 mt-12">
+              <div className="h-[35.125rem] w-96 mx-auto  border p-6 hover:h-auto border-[#FFFFFF47] hover:border-white hover:-translate-y-16 transition duration-500 hover:border-[2px] delay-75 parent overflow-hidden  lg:col-span-2 xl:col-span-1 lg:w-full lg:mx-0 mt-12">
                 <div className="flex justify-between items-center">
                   <h4 className="font-DMSans font-bold text-white text-lg">
                     DOG ICON ART
@@ -775,7 +775,7 @@ function App() {
                 <input
                   type="submit"
                   value="Subscribe"
-                  className="px-8 p-4 primery-bg font-OpenSans font-semibold text-lg text-white "
+                  className="px-8 p-4 primery-bg font-OpenSans font-semibold text-lg text-white cursor-pointer "
                 />
               </form>
             </div>
