@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;700&display=swap');
+
+@layer base {
+  html{
+    @apply text-xs sm:text-xs md:text-base;
+  }
+  @font-face {
+    font-family: Sitka;
+    src: url(./assets/fonts/sitka-small-599.ttf) format(truetype);
+  }
+}
+
+@layer utilities {
+  .primery-bg {
+    @apply bg-gradient-to-r from-[#7273D9]  via-[#B35BC7] to-[#D927C3];
+  }
+  .xlcontainer {
+    @apply w-[75rem];
+  }
+  .border-grad{
+    border-image: linear-gradient(90deg, #7472D9 0%, #A560CB 50%, rgba(0,0,0,0) 90%) 1;
+  }
+  .textt{
+    @apply font-OpenSans text-base text-txt;
+  }
+  .headers{
+    @apply font-Ruda text-5xl font-bold text-white;
+  }
+  .rtl{
+    direction: rtl;
+  }
+}
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
