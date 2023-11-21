@@ -519,8 +519,8 @@ function App() {
             </div>
             <div className="mt-12 overflow-scroll no-scrollbar">
               <div className="flex gap-6">
-                <div className="w-[28rem] h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar1.svg" alt="avatar1" />
+                <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
+                  <img src="src\assets\svg\avatar1.svg" alt="avatar1" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -530,8 +530,8 @@ function App() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[28rem] h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar2.svg" alt="avatar2" />
+                <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
+                  <img src="src\assets\svg\avatar2.svg" alt="avatar2" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -541,8 +541,8 @@ function App() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[28rem] h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar3.svg" alt="avatar3" />
+                <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
+                  <img src="src\assets\svg\avatar3.svg" alt="avatar3" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -554,8 +554,8 @@ function App() {
                 </div>
               </div>
               <div className="flex gap-6 ml-10 mt-6">
-                <div className="w-[28rem] h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar1.svg" alt="avatar1" />
+                <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
+                  <img src="src\assets\svg\avatar1.svg" alt="avatar1"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -565,8 +565,8 @@ function App() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[28rem] h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar2.svg" alt="avatar2" />
+                <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
+                  <img src="src\assets\svg\avatar2.svg" alt="avatar2"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -576,8 +576,8 @@ function App() {
                     </p>
                   </div>
                 </div>
-                <div className="w-[28rem] h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar3.svg" alt="avatar3" />
+                <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
+                  <img src="src\assets\svg\avatar3.svg" alt="avatar3"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
