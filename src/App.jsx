@@ -331,7 +331,7 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="svg\avatar1.svg"
+                        src="./assets/svg/header__img.svg"
                         alt="avatar1"
                         className="max-w-[3.75rem]"
                       />
