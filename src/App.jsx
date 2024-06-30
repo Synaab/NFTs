@@ -1,16 +1,15 @@
 import "./App.css";
-import Header_logo from "src/assets/Header_logo.svg"
 
 function App() {
   return (
     <>
-      <header className="container overflow-hidden mt-5 mx-auto pl-4 min-h-[52.5rem]  bg-[url('./assets/svg/header__img.svg')] bg-no-repeat bg-cover bg-center">
+      <header className="container overflow-hidden mt-5 mx-auto pl-4 min-h-[52.5rem]  bg-[url('public/svg/header__img.svg')] bg-no-repeat bg-cover bg-center">
         <div className="xl:xlcontainer text-white mx-auto px-4 p-1 ">
           <section className=" flex justify-between items-center gap-10 mt-8">
             <div className=" gap-2 flex">
               <div className="hidden lg:block">
                 <a href="">
-                  <img src={Header_logo} alt="" />
+                  <img src="public\svg\Header-logo.svg" alt="" />
                 </a>
               </div>
               <div className="">
@@ -159,19 +158,19 @@ function App() {
         <div className="xl:xlcontainer mx-auto">
           <section className="flex justify-center flex-wrap gap-8">
             <img
-              src="src\assets\svg\Logo1_Amazon.svg"
+              src="public\svg\Logo1_Amazon.svg"
               alt=""
               className="w-44"
             />
-            <img src="src\assets\svg\Logo2_Slack.svg" alt="" className="w-44" />
+            <img src="public\svg\Logo2_Slack.svg" alt="" className="w-44" />
             <img
-              src="src\assets\svg\Logo3_Paradigm.svg"
+              src="public\svg\Logo3_Paradigm.svg"
               alt=""
               className="w-44"
             />
-            <img src="src\assets\svg\Logo4_Chase.svg" alt="" className="w-44" />
+            <img src="public\svg\Logo4_Chase.svg" alt="" className="w-44" />
             <img
-              src="src\assets\svg\Logo5_Binance.svg"
+              src="public\svg\Logo5_Binance.svg"
               alt=""
               className="w-44"
             />
@@ -195,7 +194,7 @@ function App() {
               <div className="grid-cols-1 gap-6 hidden lg:grid-cols-2 sm:grid ">
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                    <img src="src\assets\svg\grid1-logo.svg" alt="gird-logo1" />
+                    <img src="public\svg\grid1-logo.svg" alt="gird-logo1" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Set up Your Wallet
@@ -207,7 +206,7 @@ function App() {
                 </div>
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                    <img src="src\assets\svg\grid2-logo.svg" alt="gird-logo2" />
+                    <img src="public\svg\grid2-logo.svg" alt="gird-logo2" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Buy Your Collection
@@ -219,7 +218,7 @@ function App() {
                 </div>
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 hidden lg:block ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                    <img src="src\assets\svg\grid3-logo.svg" alt="gird-logo3" />
+                    <img src="public\svg\grid3-logo.svg" alt="gird-logo3" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Sell Your NFTs
@@ -231,7 +230,7 @@ function App() {
                 </div>
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 hidden lg:block ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f]">
-                    <img src="src\assets\svg\grid4-logo.svg" alt="gird-logo4" />
+                    <img src="public\svg\grid4-logo.svg" alt="gird-logo4" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Add Your NFTs
@@ -246,7 +245,7 @@ function App() {
             <div className="grid-cols-2 gap-11 mt-5 hidden md:grid lg:hidden">
               <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                 <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                  <img src="src\assets\svg\grid3-logo.svg" alt="gird-logo3" />
+                  <img src="public\svg\grid3-logo.svg" alt="gird-logo3" />
                 </div>
                 <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                   Sell Your NFTs
@@ -258,7 +257,7 @@ function App() {
               </div>
               <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                 <div className="p-3.5 w-fit h-fit bg-[#ffffff1f]">
-                  <img src="src\assets\svg\grid4-logo.svg" alt="gird-logo4" />
+                  <img src="public\svg\grid4-logo.svg" alt="gird-logo4" />
                 </div>
                 <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                   Add Your NFTs
@@ -324,7 +323,7 @@ function App() {
                 <div className="flex mt-6 justify-center">
                   <div className="">
                     <img
-                      src="src\assets\svg\Trening1.svg"
+                      src="public\svg\Trening1.svg"
                       alt="Trening1"
                       className="h-96 child_img duration-300 delay-[50]"
                     />
@@ -332,19 +331,19 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="src\assets\svg\avatar2.svg"
+                        src="public\svg\avatar1.svg"
                         alt="avatar1"
                         className="max-w-[3.75rem]"
                       />
                     </div>
                     <div className="">
-                      <img src="src\assets\svg\heart.svg" alt="heart" />
+                      <img src="public\svg\heart.svg" alt="heart" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
                     </div>
                     <div className="">
-                      <img src="src\assets\svg\3circle.svg" alt="network" />
+                      <img src="public\svg\3circle.svg" alt="network" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
@@ -388,7 +387,7 @@ function App() {
                 <div className="flex mt-6 justify-center">
                   <div className="">
                     <img
-                      src="src\assets\svg\Trening2.svg"
+                      src="public\svg\Trening2.svg"
                       alt="Trening2"
                       className="h-96 child_img duration-300 delay-[50]"
                     />
@@ -396,19 +395,19 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="src\assets\svg\avatar2.svg"
+                        src="public\svg\avatar2.svg"
                         alt="avatar2"
                         className="max-w-[3.75rem]"
                       />
                     </div>
                     <div className="">
-                      <img src="src\assets\svg\heart.svg" alt="heart" />
+                      <img src="public\svg\heart.svg" alt="heart" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
                     </div>
                     <div className="">
-                      <img src="src\assets\svg\3circle.svg" alt="network" />
+                      <img src="public\svg\3circle.svg" alt="network" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
@@ -452,7 +451,7 @@ function App() {
                 <div className="flex mt-6 justify-center">
                   <div className="">
                     <img
-                      src="src\assets\svg\Trening3.svg"
+                      src="public\svg\Trening3.svg"
                       alt="Trening3"
                       className="h-96 child_img duration-300 delay-[50]"
                     />
@@ -460,19 +459,19 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="src\assets\svg\avatar3.svg"
+                        src="public\svg\avatar3.svg"
                         alt="avatar3"
                         className="max-w-[3.75rem]"
                       />
                     </div>
                     <div className="">
-                      <img src="src\assets\svg\heart.svg" alt="heart" />
+                      <img src="public\svg\heart.svg" alt="heart" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
                     </div>
                     <div className="">
-                      <img src="src\assets\svg\3circle.svg" alt="network" />
+                      <img src="public\svg\3circle.svg" alt="network" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
@@ -521,7 +520,7 @@ function App() {
             <div className="mt-12 overflow-scroll no-scrollbar">
               <div className="flex gap-6">
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar1.svg" alt="avatar1" className="w-28" />
+                  <img src="public\svg\avatar1.svg" alt="avatar1" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -532,7 +531,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar2.svg" alt="avatar2" className="w-28" />
+                  <img src="public\svg\avatar2.svg" alt="avatar2" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -543,7 +542,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar3.svg" alt="avatar3" className="w-28" />
+                  <img src="public\svg\avatar3.svg" alt="avatar3" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -556,7 +555,7 @@ function App() {
               </div>
               <div className="flex gap-6 ml-10 mt-6">
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar1.svg" alt="avatar1"  className="w-28"/>
+                  <img src="public\svg\avatar1.svg" alt="avatar1"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -567,7 +566,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar2.svg" alt="avatar2"  className="w-28"/>
+                  <img src="public\svg\avatar2.svg" alt="avatar2"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -578,7 +577,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="src\assets\svg\avatar3.svg" alt="avatar3"  className="w-28"/>
+                  <img src="public\svg\avatar3.svg" alt="avatar3"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -611,28 +610,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="src\assets\svg\collection1-1.svg"
+                    src="public\svg\collection1-1.svg"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="src\assets\svg\collection1-2.svg"
+                    src="public\svg\collection1-2.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection1-3.svg"
+                    src="public\svg\collection1-3.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection1-4.svg"
+                    src="public\svg\collection1-4.svg"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="src\assets\svg\collection1-center.svg"
+                  src="public\svg\collection1-center.svg"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -648,28 +647,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="src\assets\svg\collection2-1.svg"
+                    src="public\svg\collection2-1.svg"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="src\assets\svg\collection2-2.svg"
+                    src="public\svg\collection2-2.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection2-3.svg"
+                    src="public\svg\collection2-3.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection2-4.svg"
+                    src="public\svg\collection2-4.svg"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="src\assets\svg\collection2-center.svg"
+                  src="public\svg\collection2-center.svg"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -683,28 +682,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="src\assets\svg\collection3-1.svg"
+                    src="public\svg\collection3-1.svg"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="src\assets\svg\collection3-2.svg"
+                    src="public\svg\collection3-2.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection3-3.svg"
+                    src="public\svg\collection3-3.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection3-4.svg"
+                    src="public\svg\collection3-4.svg"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="src\assets\svg\collection3-center.svg"
+                  src="public\svg\collection3-center.svg"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -718,28 +717,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="src\assets\svg\collection4-1.svg"
+                    src="public\svg\collection4-1.svg"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="src\assets\svg\collection4-2.svg"
+                    src="public\svg\collection4-2.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection4-3.svg"
+                    src="public\svg\collection4-3.svg"
                     alt=""
                     className=""
                   />
                   <img
-                    src="src\assets\svg\collection4-4.svg"
+                    src="public\svg\collection4-4.svg"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="src\assets\svg\collection4-center.svg"
+                  src="public\svg\collection4-center.svg"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -781,7 +780,7 @@ function App() {
               </form>
             </div>
             <img
-              src="src\assets\svg\subscribe.svg"
+              src="public\svg\subscribe.svg"
               alt="subscribe"
               className="-translate-y-7 translate-x-5 max-w-[21.125rem] hidden sm:block"
             />
@@ -856,21 +855,21 @@ function App() {
           <div className=" flex gap-5 mt-[1.375rem]">
             <a href="">
               <img
-                src="src\assets\svg\Instagram.svg"
+                src="public\svg\Instagram.svg"
                 alt="Instagram"
                 className="p-2.5 rounded primery-bg"
               />
             </a>
             <a href="">
               <img
-                src="src\assets\svg\Facebook.svg"
+                src="public\svg\Facebook.svg"
                 alt="Facebook"
                 className="p-2.5 rounded primery-bg"
               />
             </a>
             <a href="">
               <img
-                src="src\assets\svg\Twitter.svg"
+                src="public\svg\Twitter.svg"
                 alt="Twitter"
                 className="p-2.5 rounded primery-bg"
               />
