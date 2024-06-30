@@ -3,13 +3,13 @@ import "./App.css";
 function App() {
   return (
     <>
-      <header className="container overflow-hidden mt-5 mx-auto pl-4 min-h-[52.5rem]  bg-[url('public/svg/header__img.svg')] bg-no-repeat bg-cover bg-center">
+      <header className="container overflow-hidden mt-5 mx-auto pl-4 min-h-[52.5rem]  bg-[url('./assets/svg/header__img.svg')] bg-no-repeat bg-cover bg-center">
         <div className="xl:xlcontainer text-white mx-auto px-4 p-1 ">
           <section className=" flex justify-between items-center gap-10 mt-8">
             <div className=" gap-2 flex">
               <div className="hidden lg:block">
                 <a href="">
-                  <img src="Header-logo.svg" alt="" />
+                  <img src="/assets/svg/Header-logo.svg" alt="header-logo" />
                 </a>
               </div>
               <div className="">
@@ -158,19 +158,19 @@ function App() {
         <div className="xl:xlcontainer mx-auto">
           <section className="flex justify-center flex-wrap gap-8">
             <img
-              src="public\svg\Logo1_Amazon.svg"
+              src="https://imgurl.ir/uploads/h406200_Logo1_Amazon.png"
               alt=""
               className="w-44"
             />
-            <img src="public\svg\Logo2_Slack.svg" alt="" className="w-44" />
+            <img src="https://imgurl.ir/uploads/a992978_Logo2_Slack.png" alt="" className="w-44" />
             <img
-              src="public\svg\Logo3_Paradigm.svg"
+              src="https://imgurl.ir/uploads/q10811_Logo3_Paradigm.png"
               alt=""
               className="w-44"
             />
-            <img src="public\svg\Logo4_Chase.svg" alt="" className="w-44" />
+            <img src="https://imgurl.ir/uploads/i50812_Logo4_Chase.png" alt="" className="w-44" />
             <img
-              src="public\svg\Logo5_Binance.svg"
+              src="https://imgurl.ir/uploads/k98683_Logo5_Binance.png"
               alt=""
               className="w-44"
             />
@@ -194,7 +194,7 @@ function App() {
               <div className="grid-cols-1 gap-6 hidden lg:grid-cols-2 sm:grid ">
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                    <img src="public\svg\grid1-logo.svg" alt="gird-logo1" />
+                    <img src="https://imgurl.ir/uploads/h080864_grid1-logo.png" alt="gird-logo1" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Set up Your Wallet
@@ -206,7 +206,7 @@ function App() {
                 </div>
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                    <img src="public\svg\grid2-logo.svg" alt="gird-logo2" />
+                    <img src="https://imgurl.ir/uploads/q217213_grid2-logo.png" alt="gird-logo2" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Buy Your Collection
@@ -218,7 +218,7 @@ function App() {
                 </div>
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 hidden lg:block ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                    <img src="public\svg\grid3-logo.svg" alt="gird-logo3" />
+                    <img src="https://imgurl.ir/uploads/s525096_grid3-logo.png" alt="gird-logo3" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Sell Your NFTs
@@ -230,7 +230,7 @@ function App() {
                 </div>
                 <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 hidden lg:block ">
                   <div className="p-3.5 w-fit h-fit bg-[#ffffff1f]">
-                    <img src="public\svg\grid4-logo.svg" alt="gird-logo4" />
+                    <img src="https://imgurl.ir/uploads/s76352_grid4-logo.png" alt="gird-logo4" />
                   </div>
                   <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                     Add Your NFTs
@@ -245,7 +245,7 @@ function App() {
             <div className="grid-cols-2 gap-11 mt-5 hidden md:grid lg:hidden">
               <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                 <div className="p-3.5 w-fit h-fit bg-[#ffffff1f] backdrop-blur-sm rounded">
-                  <img src="public\svg\grid3-logo.svg" alt="gird-logo3" />
+                  <img src="src\assets\svg\grid3-logo.svg" alt="gird-logo3" />
                 </div>
                 <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                   Sell Your NFTs
@@ -257,7 +257,7 @@ function App() {
               </div>
               <div className="max-w-[22.5rem] h-[14.5rem] border border-grad p-8 ">
                 <div className="p-3.5 w-fit h-fit bg-[#ffffff1f]">
-                  <img src="public\svg\grid4-logo.svg" alt="gird-logo4" />
+                  <img src="src\assets\svg\grid4-logo.svg" alt="gird-logo4" />
                 </div>
                 <h4 className="font-Ruda font-bold text-2xl text-white mt-6">
                   Add Your NFTs
@@ -323,7 +323,7 @@ function App() {
                 <div className="flex mt-6 justify-center">
                   <div className="">
                     <img
-                      src="public\svg\Trening1.svg"
+                      src="https://imgurl.ir/uploads/l960254_Trening1.png"
                       alt="Trening1"
                       className="h-96 child_img duration-300 delay-[50]"
                     />
@@ -331,19 +331,19 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="assets\avatar1.svg"
+                        src="https://imgurl.ir/uploads/w984662_avatar1.png"
                         alt="avatar1"
                         className="max-w-[3.75rem]"
                       />
                     </div>
                     <div className="">
-                      <img src="public\svg\heart.svg" alt="heart" />
+                      <img src="https://imgurl.ir/uploads/n03415_heart.png" alt="heart" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
                     </div>
                     <div className="">
-                      <img src="public\svg\3circle.svg" alt="network" />
+                      <img src="https://imgurl.ir/uploads/z46088_3circle.png" alt="network" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
@@ -387,7 +387,7 @@ function App() {
                 <div className="flex mt-6 justify-center">
                   <div className="">
                     <img
-                      src="public\svg\Trening2.svg"
+                      src="https://imgurl.ir/uploads/b943154_Trening2.png"
                       alt="Trening2"
                       className="h-96 child_img duration-300 delay-[50]"
                     />
@@ -395,19 +395,19 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="public\svg\avatar2.svg"
+                        src="https://imgurl.ir/uploads/r883588_avatar2.png"
                         alt="avatar2"
                         className="max-w-[3.75rem]"
                       />
                     </div>
                     <div className="">
-                      <img src="public\svg\heart.svg" alt="heart" />
+                      <img src="https://imgurl.ir/uploads/n03415_heart.png" alt="heart" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
                     </div>
                     <div className="">
-                      <img src="public\svg\3circle.svg" alt="network" />
+                      <img src="https://imgurl.ir/uploads/z46088_3circle.png" alt="network" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
@@ -451,7 +451,7 @@ function App() {
                 <div className="flex mt-6 justify-center">
                   <div className="">
                     <img
-                      src="public\svg\Trening3.svg"
+                      src="https://imgurl.ir/uploads/m760398_Trening3.png"
                       alt="Trening3"
                       className="h-96 child_img duration-300 delay-[50]"
                     />
@@ -459,19 +459,19 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="public\svg\avatar3.svg"
+                        src="https://imgurl.ir/uploads/y0896_avatar3.png"
                         alt="avatar3"
                         className="max-w-[3.75rem]"
                       />
                     </div>
                     <div className="">
-                      <img src="public\svg\heart.svg" alt="heart" />
+                      <img src="https://imgurl.ir/uploads/n03415_heart.png" alt="heart" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
                     </div>
                     <div className="">
-                      <img src="public\svg\3circle.svg" alt="network" />
+                      <img src="https://imgurl.ir/uploads/z46088_3circle.png" alt="network" />
                       <p className="font-DMSans text-[#DEDEDE] text-sm">
                         45.5K
                       </p>
@@ -520,7 +520,7 @@ function App() {
             <div className="mt-12 overflow-scroll no-scrollbar">
               <div className="flex gap-6">
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="public\svg\avatar1.svg" alt="avatar1" className="w-28" />
+                  <img src="https://imgurl.ir/uploads/w984662_avatar1.png" alt="avatar1" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -531,7 +531,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="public\svg\avatar2.svg" alt="avatar2" className="w-28" />
+                  <img src="https://imgurl.ir/uploads/r883588_avatar2.png" alt="avatar2" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -542,7 +542,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="public\svg\avatar3.svg" alt="avatar3" className="w-28" />
+                  <img src="https://imgurl.ir/uploads/y0896_avatar3.png" alt="avatar3" className="w-28" />
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -555,7 +555,7 @@ function App() {
               </div>
               <div className="flex gap-6 ml-10 mt-6">
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="public\svg\avatar1.svg" alt="avatar1"  className="w-28"/>
+                  <img src="https://imgurl.ir/uploads/w984662_avatar1.png" alt="avatar1"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -566,7 +566,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="public\svg\avatar2.svg" alt="avatar2"  className="w-28"/>
+                  <img src="https://imgurl.ir/uploads/r883588_avatar2.png" alt="avatar2"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -577,7 +577,7 @@ function App() {
                   </div>
                 </div>
                 <div className="w-[21rem] h-28 md:w-[29rem] md:h-40 flex-shrink-0 primery-bg px-10 py-6 flex items-center gap-6">
-                  <img src="public\svg\avatar3.svg" alt="avatar3"  className="w-28"/>
+                  <img src="https://imgurl.ir/uploads/y0896_avatar3.png" alt="avatar3"  className="w-28"/>
                   <div>
                     <p className="font-DMSans text-2xl text-white">
                       Alex Maverick
@@ -610,28 +610,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="public\svg\collection1-1.svg"
+                    src="https://imgurl.ir/uploads/m68481_collection1-1.png"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="public\svg\collection1-2.svg"
+                    src="https://imgurl.ir/uploads/c856882_collection1-2.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection1-3.svg"
+                    src="https://imgurl.ir/uploads/a146238_collection1-3.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection1-4.svg"
+                    src="https://imgurl.ir/uploads/p310273_collection1-4.png"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="public\svg\collection1-center.svg"
+                  src="https://imgurl.ir/uploads/c362459_collection1-center.png"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -647,28 +647,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="public\svg\collection2-1.svg"
+                    src="https://imgurl.ir/uploads/h571997_collection2-1.png"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="public\svg\collection2-2.svg"
+                    src="https://imgurl.ir/uploads/t08011_collection2-2.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection2-3.svg"
+                    src="https://imgurl.ir/uploads/u32885_collection2-3.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection2-4.svg"
+                    src="https://imgurl.ir/uploads/p064912_collection2-4.png"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="public\svg\collection2-center.svg"
+                  src="https://imgurl.ir/uploads/t10358_collection2-center.png"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -682,28 +682,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="public\svg\collection3-1.svg"
+                    src="https://imgurl.ir/uploads/h99222_collection3-1.png"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="public\svg\collection3-2.svg"
+                    src="https://imgurl.ir/uploads/h970749_collection3-2.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection3-3.svg"
+                    src="https://imgurl.ir/uploads/p419260_collection3-3.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection3-4.svg"
+                    src="https://imgurl.ir/uploads/b12239_collection3-4.png"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="public\svg\collection3-center.svg"
+                  src="https://imgurl.ir/uploads/u594556_collection3-center.png"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -717,28 +717,28 @@ function App() {
               <div className="max-w-[17.625rem] relative p-5 border border-[#FFFFFF36]">
                 <div className="grid grid-cols-3 gap-x-3 gap-y-4">
                   <img
-                    src="public\svg\collection4-1.svg"
+                    src="https://imgurl.ir/uploads/z39195_collection4-1.png"
                     alt=""
                     className="col-span-3"
                   />
                   <img
-                    src="public\svg\collection4-2.svg"
+                    src="https://imgurl.ir/uploads/b897461_collection4-2.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection4-3.svg"
+                    src="https://imgurl.ir/uploads/q5992_collection4-3.png"
                     alt=""
                     className=""
                   />
                   <img
-                    src="public\svg\collection4-4.svg"
+                    src="https://imgurl.ir/uploads/g071865_collection4-4.png"
                     alt=""
                     className=""
                   />
                 </div>
                 <img
-                  src="public\svg\collection4-center.svg"
+                  src="https://imgurl.ir/uploads/u048290_collection4-center.png"
                   alt=""
                   className="absolute top-1/2 left-1/2 -translate-x-1/2"
                 />
@@ -780,7 +780,7 @@ function App() {
               </form>
             </div>
             <img
-              src="public\svg\subscribe.svg"
+              src="https://imgurl.ir/uploads/t3764_subscribe.png"
               alt="subscribe"
               className="-translate-y-7 translate-x-5 max-w-[21.125rem] hidden sm:block"
             />
@@ -855,21 +855,21 @@ function App() {
           <div className=" flex gap-5 mt-[1.375rem]">
             <a href="">
               <img
-                src="public\svg\Instagram.svg"
+                src="https://imgurl.ir/uploads/v811898_Instagram.png"
                 alt="Instagram"
                 className="p-2.5 rounded primery-bg"
               />
             </a>
             <a href="">
               <img
-                src="public\svg\Facebook.svg"
+                src="https://imgurl.ir/uploads/q178800_Facebook.png"
                 alt="Facebook"
                 className="p-2.5 rounded primery-bg"
               />
             </a>
             <a href="">
               <img
-                src="public\svg\Twitter.svg"
+                src="https://imgurl.ir/uploads/u431759_Twitter.png"
                 alt="Twitter"
                 className="p-2.5 rounded primery-bg"
               />
