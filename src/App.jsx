@@ -9,7 +9,7 @@ function App() {
             <div className=" gap-2 flex">
               <div className="hidden lg:block">
                 <a href="">
-                  <img src="src/assets/svg/Header-logo.svg" alt="" />
+                  <img src="Header-logo.svg" alt="" />
                 </a>
               </div>
               <div className="">
@@ -331,7 +331,7 @@ function App() {
                   <div className="flex flex-col items-center ml-6 space-y-12 w-0 child_div opacity-0 translate-x-24 duration-1000">
                     <div className="">
                       <img
-                        src="public\svg\avatar1.svg"
+                        src="assets\avatar1.svg"
                         alt="avatar1"
                         className="max-w-[3.75rem]"
                       />
