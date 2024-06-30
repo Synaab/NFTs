@@ -9,7 +9,7 @@ function App() {
             <div className=" gap-2 flex">
               <div className="hidden lg:block">
                 <a href="">
-                  <img src="public\svg\Header-logo.svg" alt="" />
+                  <img src="src/assets/svg/Header-logo.svg" alt="" />
                 </a>
               </div>
               <div className="">
