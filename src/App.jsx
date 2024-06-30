@@ -1,4 +1,5 @@
 import "./App.css";
+import Header_logo from "src/assets/Header_logo.svg"
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
             <div className=" gap-2 flex">
               <div className="hidden lg:block">
                 <a href="">
-                  <img src="src\assets\svg\Header-logo.svg" alt="" />
+                  <img src={Header_logo} alt="" />
                 </a>
               </div>
               <div className="">
